@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright future Program</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>Bright future</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs.html" class="active">Programs</a></li>
+                <li><a href="impacts.html">Impacts</a></li>
+                <li><a href="donations.html">Donations</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Programs</h1>
+            <p>Comprehensive learning paths for all ages and skill levels</p>
+        </div>
+    </section>
+
+    <section class="featured-program">
+        <div class="container">
+            <div class="featured-badge">Featured Program</div>
+            <div class="featured-content">
+                <div class="featured-info">
+                    <h2>Digital Literacy Initiative</h2>
+                    <p>Our flagship program bringing technology education to underserved communities. Students learn essential computer skills, internet safety, and digital communication.</p>
+                    <div class="featured-stats">
+                        <div class="featured-stat">
+                            <span class="stat-number">2,500+</span>
+                            <span class="stat-label">Students Trained</span>
+                        </div>
+                        <div class="featured-stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Computer Labs</span>
+                        </div>
+                        <div class="featured-stat">
+                            <span class="stat-number">85%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Enroll Now</button>
+                </div>
+                <div class="featured-image">
+                    <div class="image-placeholder">💻</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="programs">
+        <div class="container">
+            <h2>All Programs</h2>
+            <p class="section-subtitle">Choose the path that's right for you</p>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <span class="program-level">Beginner</span>
+                    <h3>Basic Literacy</h3>
+                    <p>Reading, writing, and numeracy for beginners. Perfect for those starting their educational journey.</p>
+                    <ul class="program-features">
+                        <li>✓ Reading fundamentals</li>
+                        <li>✓ Basic mathematics</li>
+                        <li>✓ Writing skills</li>
+                        <li>✓ Communication basics</li>
+                    </ul>
+                    <div class="program-duration">
+                        <span>25 students/class</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showProgramDetails('basic-literacy')">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <span class="program-level intermediate">Intermediate</span>
+                    <h3>Digital Skills</h3>
+                    <p>Computer literacy and technology training for the digital age. Essential skills for modern employment.</p>
+                    <ul class="program-features">
+                        <li>✓ Computer basics</li>
+                        <li>✓ Internet navigation</li>
+                        <li>✓ Microsoft Office</li>
+                        <li>✓ Email & communication</li>
+                    </ul>
+                    <div class="program-duration">
+                        <span>6 months</span>
+                        <span>20 students/class</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showProgramDetails('digital-skills')">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <span class="program-level intermediate">Intermediate</span>
+                    <h3>Vocational Training</h3>
+                    <p>Practical skills for employment and entrepreneurship. Hands-on training in various trades.</p>
+                    <ul class="program-features">
+                        <li>✓ Carpentry & woodwork</li>
+                        <li>✓ Tailoring & design</li>
+                        <li>✓ Sustainable agriculture</li>
+                        <li>✓ Business basics</li>
+                    </ul>
+                    <div class="program-duration">
+                        <span>8 months</span>
+                        <span>15 students/class</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showProgramDetails('vocational')">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <span class="program-level advanced">Advanced</span>
+                    <h3>STEM Education</h3>
+                    <p>Science, Technology, Engineering, and Math for future innovators and problem solvers.</p>
+                    <ul class="program-features">
+                        <li>✓ Basic coding (Python)</li>
+                        <li>✓ Science experiments</li>
+                        <li>✓ Math problem solving</li>
+                        <li>✓ Robotics introduction</li>
+                    </ul>
+                    <div class="program-duration">
+                        <span>12 months</span>
+                        <span>20 students/class</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showProgramDetails('stem')">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <span class="program-level beginner">Beginner</span>
+                    <h3>English Language</h3>
+                    <p>English language skills for better communication and opportunities.</p>
+                    <ul class="program-features">
+                        <li>✓ Speaking & pronunciation</li>
+                        <li>✓ Reading comprehension</li>
+                        <li>✓ Writing skills</li>
+                        <li>✓ Business English</li>
+                    </ul>
+                    <div class="program-duration">
+                        <span>4 months</span>
+                        <span>25 students/class</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showProgramDetails('english')">Learn More</button>
+                </div>
+
+                <div class="program-card">
+                    <span class="program-level intermediate">Intermediate</span>
+                    <h3>Financial Literacy</h3>
+                    <p>Essential money management and financial planning skills.</p>
+                    <ul class="program-features">
+                        <li>✓ Budgeting basics</li>
+                        <li>✓ Saving strategies</li>
+                        <li>✓ Introduction to banking</li>
+                        <li>✓ Small business finance</li>
+                    </ul>
+                    <div class="program-duration">
+                        <span>2 months</span>
+                        <span>30 students/class</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showProgramDetails('financial')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="program-benefits">
+        <div class="container">
+            <h2>Why Choose Our Programs?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <h3>Certified Curriculum</h3>
+                    <p>All programs are certified and recognized nationally</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Expert Mentors</h3>
+                    <p>Learn from experienced educators and industry professionals</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>100% Free</h3>
+                    <p>No hidden fees - completely free for all students</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Job Placement</h3>
+                    <p>Career guidance and job placement assistance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How to Get Started</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose a Program</h3>
+                    <p>Select the program that matches your interests and goals</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Register Online</h3>
+                    <p>Fill out our simple registration form</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Start Learning</h3>
+                    <p>Begin your educational journey with our expert mentors</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Get Certified</h3>
+                    <p>Receive your certificate upon completion</p>
+                </div>
+            </div>
+            <div class="cta-center">
+                <a href="contacts.html" class="btn btn-primary">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="programModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalContent">
+                <!-- Dynamic content loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Bright future</h3>
+                    <p>Empowering education for all, breaking barriers one student at a time.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="impacts.html">Impacts</a></li>
+                        <li><a href="donations.html">Donations</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#" onclick="showProgramDetails('basic-literacy')">Basic Literacy</a></li>
+                        <li><a href="#" onclick="showProgramDetails('digital-skills')">Digital Skills</a></li>
+                        <li><a href="#" onclick="showProgramDetails('vocational')">Vocational Training</a></li>
+                        <li><a href="#" onclick="showProgramDetails('stem')">STEM Education</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-small">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bright future Program. All rights reserved.</p>
+                <div id="weather-widget"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/programs.js"></script>
+</body>
+</html>

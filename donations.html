@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Us -Bright future Program</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>Bright future</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="impacts.html">Impacts</a></li>
+                <li><a href="donations.html" class="active">Donations</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Support Our Mission</h1>
+            <p>Your donation transforms lives through education</p>
+        </div>
+    </section>
+
+    <section class="donations">
+        <div class="container">
+            <div class="donations-wrapper">
+                <div class="donation-info">
+                    <h2>Support A Student's Future</h2>
+                    <p class="donation-description">Every contribution, no matter the size, makes a difference in a child's life.</p>
+                    
+                    <h3>Your donation provides:</h3>
+                    <ul class="donation-benefits">
+                        <li>
+                            <div>
+                                <strong>Learning materials for one year</strong>
+                                <p>Books, notebooks, pens, and other essential supplies</p>
+                                <span class="benefit-amount">KSH50</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Tablet for digital learning</strong>
+                                <p>Access to online resources and digital content</p>
+                                <span class="benefit-amount">KSH150</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Full scholarship for one student</strong>
+                                <p>Complete educational support for one year</p>
+                                <span class="benefit-amount">KSH500</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Support a whole classroom</strong>
+                                <p>Resources for 30 students including materials and technology</p>
+                                <span class="benefit-amount">KSH2,000</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="current-goal">
+                        <h4>Current Fundraising Goal</h4>
+                        <div class="goal-stats">
+                            <span class="goal-target">Target: KSH50,000</span>
+                            <span class="goal-raised">Raised: KSH22,500</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 45%"></div>
+                        </div>
+                        <p class="goal-message">Help us reach our goal! Every dollar brings us closer.</p>
+                    </div>
+
+                    <div class="impact-note">
+                        <h4>Your Impact</h4>
+                        <p>100% of your donation goes directly to educational programs. We're a registered non-profit committed to transparency.</p>
+                    </div>
+                </div>
+                
+                <div class="donation-form">
+                    <h3>Make a Donation</h3>
+                    <form id="donationForm">
+                        <div class="form-group">
+                            <label>Select Amount</label>
+                            <div class="amount-buttons">
+                                <button type="button" class="amount-btn" data-amount="50">KSH50</button>
+                                <button type="button" class="amount-btn" data-amount="150">KSH150</button>
+                                <button type="button" class="amount-btn" data-amount="500">KSH500</button>
+                                <button type="button" class="amount-btn" data-amount="2000">KSH2000</button>
+                            </div>
+                            <input type="number" id="customAmount" placeholder="Or enter custom amount (KSH)">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Donation Type</label>
+                            <select id="donationType">
+                                <option value="one-time">One-time Donation</option>
+                                <option value="monthly">Monthly Donation</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="fullName" placeholder="Full Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone Number (optional)">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="anonymous"> 
+                                Make this donation anonymous
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter"> 
+                                Subscribe to our newsletter
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Donate Now</button>
+                        <div id="payment-message" class="form-message"></div>
+                    </form>
+
+                    <div class="secure-badge">
+                        <p>Secure payment processing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="other-ways">
+        <div class="container">
+            <h2>Other Ways to Help</h2>
+            <div class="ways-grid">
+                <div class="way-card">
+                    <h3>Become a Volunteer</h3>
+                    <p>Join our team of dedicated mentors and educators</p>
+                    <a href="contacts.html" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="way-card">
+                    <h3>Donate Supplies</h3>
+                    <p>Books, computers, and educational materials needed</p>
+                    <a href="contacts.html" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="way-card">
+                    <h3>Corporate Partnership</h3>
+                    <p>Partner with us to create lasting impact</p>
+                    <a href="contacts.html" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Bright future</h3>
+                    <p>Empowering education for all, breaking barriers one student at a time.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="impacts.html">Impacts</a></li>
+                        <li><a href="donations.html">Donations</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="donations.html">Donate</a></li>
+                        <li><a href="contacts.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Volunteer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-small">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bright future Program. All rights reserved.</p>
+                <div id="weather-widget"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
