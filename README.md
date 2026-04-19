@@ -4,10 +4,10 @@
 Providing quality education access to underserved communities across Kenya.
 
 ## Features
--  Free educational programs
--  Digital skills training
--  Mentorship program
--  Community support
+1.  Free educational programs
+2.  Digital skills training
+3.  Mentorship program
+4.  Community support
 
 ## Tech Stack
 - HTML5
