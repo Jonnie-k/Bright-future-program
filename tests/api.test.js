@@ -3,12 +3,10 @@
 
 // Mock fetch for testing
 global.fetch = jest.fn();
-
 describe('API Functions', () => {
     beforeEach(() => {
         fetch.mockClear();
     });
-    
     test('fetchImpactData returns data successfully', async () => {
         const mockData = [{ id: 1, title: 'Test Post' }];
         fetch.mockResolvedValueOnce({
@@ -20,14 +18,12 @@ describe('API Functions', () => {
         expect(data).toEqual(mockData);
         expect(fetch).toHaveBeenCalledTimes(1);
     });
-    
     test('fetchImpactData handles errors', async () => {
         fetch.mockRejectedValueOnce(new Error('API Error'));
         
         const data = await fetchImpactData();
         expect(data).toEqual([]);
     });
-    
     test('fetchMotivationalQuote returns quote', async () => {
         const mockQuotes = [{ text: 'Test Quote', author: 'Test Author' }];
         fetch.mockResolvedValueOnce({
@@ -49,9 +45,7 @@ describe('Form Validation', () => {
         form.appendChild(amount);
         
         expect(amount.required).toBe(true);
-    });
-    
-    test('Contact form requires name and email', () => {
+    });test('Contact form requires name and email', () => {
         const inputs = [
             { name: 'name', required: true },
             { name: 'email', required: true }
