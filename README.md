@@ -1,4 +1,4 @@
-#Bright future program Project
+# Bright future program Project
 
 ## Mission
 Providing quality education access to underserved communities across Kenya.
@@ -25,11 +25,11 @@ Providing quality education access to underserved communities across Kenya.
 - Weather updates from Open-Meteo
 - Dynamic content from JSONPlaceholder
 
+## Author
+John King'oo
+
 ## Testing
 Run unit tests:
 ```bash
 npm test
 
-
-## Author
-John king'oo
