@@ -3,7 +3,6 @@ const WEATHER_API = 'https://api.open-meteo.com/v1/forecast?latitude=-1.286389&l
 
 // Initialize API calls
 document.addEventListener('DOMContentLoaded', () => {
-    // These functions need to be defined elsewhere in your file or imported
     if (typeof fetchImpactData === 'function') fetchImpactData();
     if (typeof fetchMotivationalQuote === 'function') fetchMotivationalQuote();
     
